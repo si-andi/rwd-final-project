@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes transitionImg {
+    from {
+        padding-left: 100%;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes transitionText1 {
+    from {
+        padding-right: 100%;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+img:not(.logo-1) {
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+img:hover {
+    filter: grayscale(30%);
+    padding: 1%;
+}
+/* Header */
+
+
+.interest-title{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    color: black;
+    transition: 1.5s;
+    animation: transitionImg 2s;
+}
+
+.interest-title:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-under-title{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 1.5vw;
+    color: black;
+    transition: 1.5s;
+    animation: transitionText1 2s;
+}
+
+
+/* Body */
+
+
+.interest-body-img{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    animation: transitionText1 2s;
+}
+
+.interest-side-img{
+    padding-bottom: 10%;
+    margin-left: 5%;
+    transition: 1.5s;
+}
+
+.interest-side-img:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-top-img{
+    padding-bottom: 10%;
+    padding-left: 2%;
+    align-content: center;
+    margin-right: 5%;
+    transition: 1.5s;
+}
+
+.interest-top-img:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-top-img-text{
+    color: black; 
+}
+
+
+.interest-photography{
+    padding-top: 2%;
+    font-size: 5vw;
+    transition: 0.5s;
+}
+
+.interest-photography:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-photography-info{
+    font-size: 1.5vw;
+}
+
+
+
+.interest-body-img2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    animation: transitionText1 2s;
+}
+
+.interest-body-top-images{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-right: 5%;
+    transition: 1.5s;
+    animation: transitionText1 2s;
+}
+
+.interest-body-bottom-images{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-right: 5%;
+    transition: 1.5s;
+    animation: transitionText1 2s;
+}
+
+.interest-digital-text{
+    align-content: center;
+    display: grid;
+    grid-template-columns: 60% 50%;
+    color: black;
+    padding-left: 2%;
+}
+
+.interest-digital-arts{
+    color: black;
+    font-size: 5vw;
+    transition: 0.5s;
+}
+
+.interest-digital-arts:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-digital-arts-text{
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 15%;
+}
+
+.hr-digi-arts{
+    width: 20vw;
+}
+
+.twond-photo{
+    padding-top: 5%;
+}
+
+.interest-top-img-text2{
+    text-align: right;
+    padding-top: 2%;
+    color: black; 
+}
+
+.spotify-playlist{
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.spotify-playlist-top{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap:5%
+    
+}
+
+.moira{
+    color: black;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.moira-name{
+    font-size: 5vw;
+    padding-bottom: 3%;
+    transition: 0.5s;
+}
+
+.moira-name:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.moira-info{
+    font-size: 1.5vw;
+}
+
+.favorite-singer{
+    color: black;
+    font-size: 5vw;
+    padding-left: 34%;
+    padding-bottom: 5%;
+    transition: 0.5s;
+}
+
+.favorite-singer:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
