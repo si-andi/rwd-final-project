@@ -73,7 +73,7 @@ img:hover {
 }
 
 .interest-side-img{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     margin-left: 5%;
     transition: 1.5s;
 }
@@ -83,7 +83,6 @@ img:hover {
 }
 
 .interest-top-img{
-    padding-bottom: 10%;
     padding-left: 2%;
     align-content: center;
     margin-right: 5%;
@@ -120,7 +119,7 @@ img:hover {
     display: grid;
     grid-template-columns: 30% 70%;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     animation: transitionText1 2s;
 }
 
@@ -179,6 +178,63 @@ img:hover {
     color: black; 
 }
 
+
+
+.interest-body-img3{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    animation: transitionText1 2s;
+}
+
+.interest-side-img3{
+    margin-left: 5%;
+    margin-right: 9%;
+    transition: 1.5s;
+}
+
+.interest-side-img3:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-top-img3{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    align-content: center;
+    transition: 1.5s;
+}
+
+.interest-top-img3:hover{
+    filter: drop-shadow(3px 3px 3px #949494);
+}
+
+.interest-top-img-text3{
+    color: black; 
+}
+
+.twond-photo2{
+    padding-top: 3.5%;
+}
+
+.interest-photography3{
+    padding-top: 3%;
+    font-size: 5vw;
+    filter: drop-shadow(4px 3px 3px #afafaf);
+    transition: 0.5s;
+}
+
+.interest-photography3:hover{
+    filter: drop-shadow(4px 3px 3px #888888);
+}
+
+.interest-photography-info3{
+    font-size: 1.5vw;
+}
+
+
+
+
+
 .spotify-playlist{
     padding-right: 5%;
     padding-bottom: 10%;
@@ -216,7 +272,7 @@ img:hover {
     color: black;
     font-size: 5vw;
     padding-left: 34%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     filter: drop-shadow(4px 3px 3px #afafaf);
     transition: 0.5s;
 }
