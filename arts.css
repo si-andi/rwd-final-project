@@ -23,14 +23,15 @@
     }
 }
 
+
 img:not(.logo-1){
     transition: 0.3s;
 }
 
 img:hover{
-    padding: 2%;
-    filter:contrast(40%) drop-shadow(3px 3px 3px #949494) grayscale(100%);
-}
+    padding: 5%;
+    filter:contrast(40%) drop-shadow(3px 3px 3px #949494) grayscale(100%); 
+} 
 
 .anp{
     font-size: 5vw;
@@ -186,3 +187,5 @@ img:hover{
 
     padding-bottom: 6%;
 }
+
+

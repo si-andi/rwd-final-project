@@ -41,6 +41,7 @@
     padding-bottom: 5%;
     transition: 2s;
     animation: transitionImg2 2s;
+    
 }
 
 .social-title{
@@ -65,6 +66,7 @@ img:hover{
     filter: contrast(50%) drop-shadow(3px 3px 3px #949494);
     padding: 2%;
 }
+
 
 .social-media1{
     color: black;
