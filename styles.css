@@ -70,8 +70,6 @@ a {
 
 .navbar {
     background-color: rgb(40, 44, 35);
-    width: 100%;
-    height: 10%;
 }
 
 .navbar-container {
@@ -80,19 +78,17 @@ a {
     color: white;
     padding: 0 10%;
     font-family: 'Sen';
-    position: relative;
-    height: 100%;
 }
 
 .logo-container {
     flex: 1;
-    padding-right: 10%;
-    padding-top: 2%;
+    padding-right: 15%;
+    padding-top: 3%;
     padding-bottom: 2%;
 }
 
 .logo {
-    margin-right: 10%;
+    margin-right: 0%;
 }
 
 .logo-1{
@@ -100,9 +96,12 @@ a {
 }
 
 .logo-1:hover{
-    filter: drop-shadow(5px 5px 10px #ffffff);
+    filter: drop-shadow(0px 0px 20px #f3f3f3);
     opacity: 0.5;
-    padding: 0.5%;
+}
+
+.menu-container{
+    padding-left: 8%;
 }
 
 .menu-list {
@@ -110,7 +109,6 @@ a {
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     padding-top: 4%;
-    padding-left: 5%;
     gap: 2%
 }
 
@@ -125,8 +123,9 @@ a {
 
 .home:hover{
     cursor: pointer;
-    opacity: 0.5;
     font-size: 1.3vw;
+    color: #919191;
+    filter: drop-shadow(0px 0px 20px #ffffff);
 }
 
 .history{
@@ -138,8 +137,9 @@ a {
 
 .history:hover{
     cursor: pointer;
-    opacity: 0.5;
     font-size: 1.3vw;
+    color: #919191;
+    filter: drop-shadow(0px 0px 20px #ffffff);
 }
 
 .interest{
@@ -151,8 +151,9 @@ a {
 
 .interest:hover{
     cursor: pointer;
-    opacity: 0.5;
     font-size: 1.3vw;
+    color: #919191;
+    filter: drop-shadow(0px 0px 20px #ffffff);
 }
 
 .arts{
@@ -165,8 +166,9 @@ a {
 
 .arts:hover{
     cursor: pointer;
-    opacity: 0.5;
     font-size: 1.3vw;
+    color: #919191;
+    filter: drop-shadow(0px 0px 20px #ffffff);
 }
 
 .socials{
@@ -178,8 +180,9 @@ a {
 
 .socials:hover{
     cursor: pointer;
-    opacity: 0.5;
     font-size: 1.3vw;
+    color: #919191;
+    filter: drop-shadow(0px 0px 20px #ffffff);
 }
 
 
@@ -308,7 +311,7 @@ a {
     background-color: rgb(78, 88, 80);
     list-style: none;
     justify-content: center;
-    padding: 2% 10% 2% 20%;    
+    padding: 1% 20% 1% 30%;    
 }
 
 .footer-image{
