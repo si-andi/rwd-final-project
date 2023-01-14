@@ -28,7 +28,7 @@ img:not(.logo-1){
     transition: 0.3s;
 }
 
-img:hover{
+img:not(.logo-1):hover{
     padding: 5%;
     filter:contrast(40%) drop-shadow(3px 3px 3px #949494) grayscale(100%); 
 } 

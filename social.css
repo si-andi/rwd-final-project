@@ -64,7 +64,7 @@ img:not(.logo-1) {
     border-radius: 10px;
 }
 
-img:hover{
+img:not(.logo-1):hover{
     filter: contrast(50%) drop-shadow(3px 3px 3px #949494);
     padding: 2%;
 }

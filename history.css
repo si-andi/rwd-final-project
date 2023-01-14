@@ -10,7 +10,7 @@ img:not(.logo-1){
     border-radius: 10px;
 }
 
-img:hover{
+img:not(.logo-1):hover{
     filter:contrast(50%);
     filter: grayscale(30%);
     padding: 1%;
