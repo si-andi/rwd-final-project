@@ -73,7 +73,7 @@ img:not(.logo-1):hover{
 .social-media1{
     color: black;
     display: grid;
-    grid-template-columns: 33% 66%;
+    grid-template-columns: 33% 65%;
     gap: 2%;
     padding-bottom: 0.5%;
     filter: grayscale(50%);
@@ -83,7 +83,7 @@ img:not(.logo-1):hover{
 .social-media2{
     color: black;
     display: grid;
-    grid-template-columns: 52% 47%;
+    grid-template-columns: 52% 46%;
     gap: 2%;
     padding-bottom: 0.5%;
     filter: grayscale(50%);
@@ -93,7 +93,7 @@ img:not(.logo-1):hover{
 .social-media3{
     color: black;
     display: grid;
-    grid-template-columns: 44% 55%;
+    grid-template-columns: 44% 54%;
     gap: 2%;
     padding-bottom: 0.5%;
     filter: grayscale(50%);
