@@ -277,8 +277,8 @@ a {
 .full-info{
     color: #000;
     display: grid;
-    grid-template-columns: 45% 10% 45%;
-    padding: 7% 5% 7% 5%;
+    grid-template-columns: 50% 50%;
+    padding: 5% 5% 5% 5%;
     transition: 0.7s;
     animation: transitionName 1.5s;
 }
@@ -303,6 +303,17 @@ a {
     
 }
 
+.informations{
+    padding: 10%;
+    background-color:rgb(212, 212, 212);
+}
+
+.personal-info{
+    padding: 10%;
+    background-color:rgb(212, 212, 212);
+}
+
+
 /* Footer */
 
 .footer{
@@ -323,4 +334,41 @@ a {
     opacity: 0.5;
 }
 
+.photo-text{
+    color: #000;
+    font-size: 3vw;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
 
+.photo-image{
+    color:black;
+    padding-left: 2%;
+    padding-right: 5.5%;    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1.5%;
+    transition: 1.5s;
+    animation: transitionImg 2s;
+}
+
+.photo-image1{
+    color:black;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 5.5%;
+    padding-bottom: 1.5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1.5%;
+    transition: 1.5s;
+    animation: transitionImg 2s;
+}
+
+.my-photo-image{
+    transition: 0.3s;
+}
+
+.my-photo-image:hover{
+    filter:contrast(50%) drop-shadow(3px 3px 3px #949494) grayscale(100%); 
+} 
