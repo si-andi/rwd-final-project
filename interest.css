@@ -44,11 +44,12 @@ img:hover {
     font-weight: bold;
     color: black;
     transition: 1.5s;
+    filter: drop-shadow(4px 3px 3px #afafaf);
     animation: transitionImg 2s;
 }
 
 .interest-title:hover{
-    filter: drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .interest-under-title{
@@ -101,11 +102,12 @@ img:hover {
 .interest-photography{
     padding-top: 2%;
     font-size: 5vw;
+    filter: drop-shadow(4px 3px 3px #afafaf);
     transition: 0.5s;
 }
 
 .interest-photography:hover{
-    filter: drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .interest-photography-info{
@@ -149,11 +151,12 @@ img:hover {
 .interest-digital-arts{
     color: black;
     font-size: 5vw;
+    filter: drop-shadow(4px 3px 3px #afafaf);
     transition: 0.5s;
 }
 
 .interest-digital-arts:hover{
-    filter: drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .interest-digital-arts-text{
@@ -198,10 +201,11 @@ img:hover {
     font-size: 5vw;
     padding-bottom: 3%;
     transition: 0.5s;
+    filter: drop-shadow(4px 3px 3px #afafaf);
 }
 
 .moira-name:hover{
-    filter: drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .moira-info{
@@ -213,9 +217,10 @@ img:hover {
     font-size: 5vw;
     padding-left: 34%;
     padding-bottom: 5%;
+    filter: drop-shadow(4px 3px 3px #afafaf);
     transition: 0.5s;
 }
 
 .favorite-singer:hover{
-    filter: drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }

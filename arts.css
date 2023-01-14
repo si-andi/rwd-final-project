@@ -36,11 +36,12 @@ img:hover{
 .anp{
     font-size: 5vw;
     padding-top: 5%;
+    filter: drop-shadow(4px 3px 3px #b3b3b3);
     transition: 0.3s;
 }
 
 .anp:hover{
-    filter:drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .anp-info{
@@ -121,11 +122,12 @@ img:hover{
     padding-top: 10%;
     transition: 0.3s;
     padding-left: 2%;
+    filter: drop-shadow(4px 3px 3px #afafaf);
     transition: 1.5s;
 }
 
 .anp1:hover{
-    filter:drop-shadow(3px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .anp-info1{

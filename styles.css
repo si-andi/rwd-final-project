@@ -53,7 +53,7 @@ a {
 }
 
 .index-hr {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     width: 71.5vw;
 }
 
@@ -187,13 +187,9 @@ a {
 /* Info */
 
 .info-bar{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 50% 50%;
-    background-image: url("https://cdn.discordapp.com/attachments/963557193943240754/1062701416298319914/1.jpg");
-    background-size:cover;
-    height: 100%;
-    width: 100;
 }
 
 .my-name{
@@ -202,11 +198,11 @@ a {
     margin-left: 5%;
     transition: 1s;
     animation: transitionName 1.7s;
-    filter: drop-shadow(4px 3px 3px #333333);
+    filter: drop-shadow(4px 3px 3px #a3a3a3);
 }
 
 .my-name:hover{
-    filter: drop-shadow(4px 3px 3px #242424);
+    filter: drop-shadow(4px 3px 3px #5e5e5e);
 }
 
 .my-name-info{
@@ -215,14 +211,15 @@ a {
 
 .my-img{
     position: relative;
-    filter: drop-shadow(10px 10px 10px #222222);
+    filter: drop-shadow(10px 10px 10px #727272);
     padding-right: 0.5%;
     transition: 0.3s;
     animation: transitionName 1.6s;
+    
 }
 
 .my-img:hover{
-    filter: drop-shadow(16px 16px 12px #0f0f0f);
+    filter: drop-shadow(16px 16px 12px #444444);
     
 }
 
@@ -283,13 +280,23 @@ a {
     animation: transitionName 1.5s;
 }
 
+.intro{
+    transition: 0.3s;
+    filter: drop-shadow(4px 3px 3px #a3a3a3);
+}
+
+.intro:hover{
+    filter: drop-shadow(4px 3px 3px #5e5e5e);
+    
+}
 
 .p-info-text{
     transition: 0.3s;
+    filter: drop-shadow(4px 3px 3px #a3a3a3);
 }
 
 .p-info-text:hover{
-    filter: drop-shadow(4px 3px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #5e5e5e);
     
 }
 

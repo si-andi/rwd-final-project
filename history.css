@@ -59,11 +59,13 @@ img:hover{
 
 .history-schooling{
     transition: 0.3s;
+    filter: drop-shadow(4px 3px 3px #afafaf);
     animation: transitionName 1.5s;
+    
 }
 
 .history-schooling:hover{
-    filter: drop-shadow(3px 2px 3px #949494);
+    filter: drop-shadow(4px 3px 3px #888888);
 }
 
 .history-link{
