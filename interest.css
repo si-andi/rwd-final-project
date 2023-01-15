@@ -236,13 +236,13 @@ img:not(.logo-1):hover {
 
 
 .spotify-playlist{
-    padding-right: 5%;
+    padding-right: 7%;
     padding-bottom: 10%;
 }
 
 .spotify-playlist-top{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     gap:5%
     
 }
@@ -250,7 +250,7 @@ img:not(.logo-1):hover {
 .moira{
     color: black;
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .moira-name{
@@ -271,7 +271,7 @@ img:not(.logo-1):hover {
 .favorite-singer{
     color: black;
     font-size: 5vw;
-    padding-left: 34%;
+    padding-left: 35%;
     padding-bottom: 3%;
     filter: drop-shadow(4px 3px 3px #afafaf);
     transition: 0.5s;
