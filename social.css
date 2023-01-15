@@ -98,5 +98,15 @@ img:not(.logo-1):hover{
     padding-bottom: 0.5%;
     filter: grayscale(50%);
     animation: transitionImg1 2s;
+}
+
+.social-media4{
+    color: black;
+    display: grid;
+    grid-template-columns: 54% 43%;
+    gap: 2%;
+    padding-bottom: 0.5%;
+    filter: grayscale(50%);
+    animation: transitionImg1 2s;
     padding-bottom: 6%;
 }
