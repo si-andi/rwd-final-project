@@ -41,12 +41,21 @@ html {
 }
 
 
-body:not(.navbar) {
+
+body{
     margin-left: 2%;
-    margin-right: 2%;
-    
+    margin-right: 2%;   
 }
 
+nav{
+    margin-left: -2%;
+    margin-right: -2%;   
+}
+
+footer{
+    margin-left: -2%;
+    margin-right: -2%;   
+}
 
 a {
     text-decoration: none;
@@ -197,8 +206,8 @@ a {
 
 .my-name{
     position: relative;
-    padding: 29% 0 0 20%;
-    margin-left: 5%;
+    padding: 27% 0 0 20%;
+    margin-left: 12%;
     transition: 1s;
     animation: transitionName 1.7s;
     filter: drop-shadow(4px 3px 3px #a3a3a3);
@@ -213,17 +222,28 @@ a {
 }
 
 .my-img{
+    padding-left: 2%;
     position: relative;
-    filter: drop-shadow(10px 10px 10px #727272);
-    padding-right: 0.5%;
-    transition: 0.3s;
-    animation: transitionName 1.6s;
+    padding-right: 0%;
+    animation: transitionName 1.7s;
+}
+
+.my-img1:hover{
+    filter: drop-shadow(16px 16px 12px #444444);
     
 }
 
-.my-img:hover{
-    filter: drop-shadow(16px 16px 12px #444444);
-    
+.my-img1{
+    transition: 0.3s;
+    filter: drop-shadow(10px 10px 10px #727272);
+}
+
+.leaves{
+    z-index: -1;
+    position:absolute;
+    left:-10vw;
+    bottom: 1vw;
+    filter: grayscale(40%);
 }
 
 
